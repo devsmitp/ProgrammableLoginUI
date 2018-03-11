@@ -12,6 +12,8 @@
 		DFA4537D2055366D002EDC4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFA4537B2055366D002EDC4E /* Main.storyboard */; };
 		DFA4537F2055366D002EDC4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFA4537E2055366D002EDC4E /* Assets.xcassets */; };
 		DFA453822055366D002EDC4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFA453802055366D002EDC4E /* LaunchScreen.storyboard */; };
+		DFA4538A20553ADE002EDC4E /* LogOutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA4538920553ADE002EDC4E /* LogOutController.swift */; };
+		DFA4538C20553C86002EDC4E /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA4538B20553C86002EDC4E /* LoginController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DFA4537E2055366D002EDC4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFA453812055366D002EDC4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFA453832055366D002EDC4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFA4538920553ADE002EDC4E /* LogOutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOutController.swift; sourceTree = "<group>"; };
+		DFA4538B20553C86002EDC4E /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,32 @@
 		DFA453762055366D002EDC4E /* ProgrammableLoginUI */ = {
 			isa = PBXGroup;
 			children = (
+				DFA4538E2055541C002EDC4E /* Resources */,
+				DFA4538D205553F9002EDC4E /* Controller */,
 				DFA453772055366D002EDC4E /* AppDelegate.swift */,
-				DFA453792055366D002EDC4E /* ViewController.swift */,
 				DFA4537B2055366D002EDC4E /* Main.storyboard */,
 				DFA4537E2055366D002EDC4E /* Assets.xcassets */,
 				DFA453802055366D002EDC4E /* LaunchScreen.storyboard */,
 				DFA453832055366D002EDC4E /* Info.plist */,
 			);
 			path = ProgrammableLoginUI;
+			sourceTree = "<group>";
+		};
+		DFA4538D205553F9002EDC4E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DFA4538920553ADE002EDC4E /* LogOutController.swift */,
+				DFA4538B20553C86002EDC4E /* LoginController.swift */,
+				DFA453792055366D002EDC4E /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DFA4538E2055541C002EDC4E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +159,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFA4537A2055366D002EDC4E /* ViewController.swift in Sources */,
+				DFA4538C20553C86002EDC4E /* LoginController.swift in Sources */,
+				DFA4538A20553ADE002EDC4E /* LogOutController.swift in Sources */,
 				DFA453782055366D002EDC4E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
